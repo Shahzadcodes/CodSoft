@@ -1,0 +1,336 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar Style */
+
+.container{
+    height: 640px;
+
+}
+
+.menu{
+    background-image: linear-gradient(to left, rgb(224, 104, 6) , rgb(219, 73, 98));
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+
+}
+
+.icons{
+    padding-top: 15px;
+    padding-left: 60px;
+    cursor: pointer;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.call{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.call_icon{
+    margin-top: 18px;
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+    color: white;
+
+}
+
+.phone_no{
+    padding-right: 150px;
+    margin-top: 19px;
+    color: white;
+}
+
+.email{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+}
+
+.mail_icon{
+    margin-top: 18px;
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+    color: white;
+    
+}
+
+.emailpara{
+    padding-right: 150px;
+    margin-top: 19px;
+    color: white;
+
+}
+
+.button{
+    margin-top: 6px;
+   
+
+}
+
+
+.demo_btn{
+    border-style: none;
+    border-color: white;
+    border-radius: 20px;
+    background-color: rgb(219, 73, 98);
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 40px;
+    cursor: pointer;
+
+}
+
+.nav_bar{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 60px;
+}
+
+.menu_bar a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.menu_bar{
+    margin-top: 18px;
+    margin-left: 40px;
+
+}
+
+.logo{
+    margin-top: 12px;
+    margin-left: 150px;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+.search{
+    margin-top: 12px;
+
+}
+
+.search_icons{
+    height: 25px;
+    width: 25px;
+    margin-left: 80px;
+    
+}
+
+/* Hero Style */
+
+.hero_container{
+    position: relative;
+    
+
+}
+
+.hero_img{
+    width: 100%;
+    height: 500px;
+}
+
+.img_container{
+    height: 500px;
+}
+
+.img_container h3{
+    margin-bottom: 300px;
+}
+
+.content{
+    position: absolute;
+    top:  50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    margin-left: 20px;
+}
+
+.content h6{
+    font-size: 20px;
+}
+
+.content h3{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.content p{
+    font-size: 20px;
+    color: white;
+}
+
+.read-btn, .request-btn{
+    border-style: none;
+    border-color: white;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,  rgb(224, 104, 6) , rgb(219, 73, 98));
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+/* Service Section */
+
+.service_container{
+    height: 100px;
+    background-image: linear-gradient(to left,  rgb(224, 104, 6) , rgb(219, 73, 98));
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 100px;
+
+}
+
+.rocket_icon{
+    height: 25px;
+    width: 25px;
+    margin-top: 40px;
+    margin-left: 140px;
+
+}
+
+.headset_icon{
+    height: 25px;
+    width: 25px;
+    margin-top: 40px;
+    margin-left: 140px;
+
+}
+
+.time_icon{
+    height: 25px;
+    width: 25px;
+    margin-top: 40px;
+    margin-left: 140px;
+    
+
+}
+
+.service1, .service2, .service3{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+}
+
+.service1 h3, .service2 h3, .service3 h3{
+    margin-top: 40px;
+
+}
+
+
+/* About Style */
+
+.about_container{
+    height: 600px;
+    background-image: url('../../assets/background.png');
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+}
+
+.about_img{
+    width: 300px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 180px;
+}
+
+.about_content{
+    margin-left: 50px;
+}
+
+.about_content h2{
+    margin-left: 100px;
+    margin-top: 80px;
+
+}
+
+.about_content h5{
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 400px;
+
+}
+
+.about_content p{
+    margin-left: 90px;
+    margin-top: 20px;
+    line-height: 30px;
+
+}
+
+.about_btn{
+    margin-left: 90px;
+    margin-top: 30px;
+    border-style: none;
+    border-color: white;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,  rgb(224, 104, 6) , rgb(219, 73, 98));
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+
+
+}
+
+/* Card Style */
+
+.card_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: gray;
+    height: 400px;
+
+}
+
+.card{
+    background-image: url('../../assets/background.png');
+}
+
+.card h2{
+    margin-left: 140px;
+    margin-top: 80px;
+
+}
+
+.card_btn{
+    margin-left: 120px;
+    margin-top: 30px;
+    border-style: none;
+    border-color: white;
+    border-radius: 20px;
+    background-image: linear-gradient(to left,  rgb(224, 104, 6) , rgb(219, 73, 98));
+    color: white;
+    font-size: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+
+}
