@@ -1,0 +1,74 @@
+.contact_container{
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.linkdein{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.linkdein a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.din_icon{
+    height: 30px;
+    width: 30px;
+    color: rgb(26, 26, 97);
+    margin-left: 550px;
+
+}
+
+.phone{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 30px;
+}
+
+.ph_icon{
+    height: 30px;
+    width: 30px;
+    margin-left: 550px;
+    margin-top: 20px;
+
+}
+
+.email{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-top: 30px;
+}
+
+.mail_icons{
+    height: 30px;
+    width: 30px;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+@media (max-width: 390px) {
+    .contact_container {
+        margin-top: 100px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .linkdein, .phone, .email {
+        grid-template-columns: 1fr;
+        justify-items: center;
+        margin-top: 20px;
+    }
+
+    .din_icon, .ph_icon, .mail_icons {
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
+
+
+
+

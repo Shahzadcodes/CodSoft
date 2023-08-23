@@ -1,0 +1,14 @@
+li{
+    list-style: none;
+    margin-top: 40px;
+    color: white;
+    
+}
+
+.mobile_menu{
+    background-color: rgba(197, 200, 207, 0.5);
+    z-index: 1;
+    height: 900px;
+    width: 400px;
+    
+}

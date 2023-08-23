@@ -1,0 +1,106 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.content p {
+    width: 480px;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.git_icon,
+.link_icon,
+.gog_icon,
+.fb_icon {
+    height: 24px;
+    width: 24px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.git_icon{
+    color: black;
+}
+
+.link_icon{
+    color: rgb(24, 24, 80);
+}
+
+.gog_icon{
+    color: red;
+}
+
+.fb_icon{
+    color: blue;
+}
+
+.hero_image {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hero_img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.hero_links {
+    margin-top: 20px;
+}
+
+.contact-btn {
+    display: block;
+    margin: 10px auto;
+    text-decoration: none;
+    color: white;
+    border-radius: 15px;
+    padding: 8px 20px;
+    background-color: purple;
+}
+
+
+@media (max-width: 390px) {
+    .hero_container {
+        padding: 20px;
+    }
+
+    .content p {
+        width: 300px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .social {
+        margin-top: 10px;
+    }
+
+    .git_icon,
+    .link_icon,
+    .gog_icon,
+    .fb_icon {
+        height: 20px;
+        width: 20px;
+        margin: 0 8px;
+    }
+
+    .hero_img {
+        max-width: 200px;
+    }
+}
